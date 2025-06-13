@@ -1,6 +1,6 @@
 ## REST_API
 
-- This project is a simple REST API built with **SPRING BOOT** that supports:
+This project is a simple REST API built with **SPRING BOOT** that supports:
 + User registration and login
 + JWT-based authentication and authorization
 + CRUD operations for user
