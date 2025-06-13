@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/rest_api
+    username: your_username
+    password: your_password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+
+server:
+  servlet:
+    context-path: /api
+  port: 8080
+
+jwt:
+  secret_key: your_secret_key
+  valid_duration: 86400
+
+logging:
+  level:
+    org.springframework.security: DEBUG
